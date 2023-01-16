@@ -1,0 +1,110 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.main
+{
+	width: 100%;
+	height: 100vh;
+/*	border: 1px solid;*/
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.sub
+{
+	width: 30%;
+	padding: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
+	border: 1px solid;
+	background-color:rgba(0,0,0,.4);
+	border-radius: 	20px;
+}
+
+.input
+{
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.insval
+{
+	padding: 20px;
+	width:270px;
+	height:60px;
+	border:1px solid black;
+	border-radius: 20px;
+	font-size: 30px;
+	text-align:left;
+}
+
+.btnmain
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.inpbtn
+{
+/*	position: absolute;*/
+/*	border: 1px solid;*/
+	border-radius: 	20px;
+	flex: wrap;
+	width: 300px;
+	text-align: center;
+	padding: 10px;
+	background-color:rgba(0,0,0,.2);
+}
+
+.btninp
+{
+	padding: 10px;
+	margin: 5px;
+	width: 60px;
+	height:60px;
+	background-color:rgba(120,230,340,.2);
+	border-radius:50%;
+	border: none;
+}
+
+
+.btninp1
+{
+	padding: 10px;
+	margin: 5px;
+	width: 60px;
+	height:60px;
+	background-color:rgba(169,155,230,.2);
+	border-radius:50%;
+	border: none;
+}
+
+.btninp:hover
+{
+	transition: .5s;
+	width: 60px;
+	height:60px;
+	border-radius:20px;
+	background-color: rgba(120,230,340,.5);
+	border: 1px solid rgba(0,0,0,.4);
+}
+
+.btninp1:hover
+{
+	transition: .5s;
+	width: 60px;
+	height:60px;
+	border-radius:20px;
+	background-color:rgba(169,155,230,.5);
+	border: 1px solid rgba(0,0,0,.4);
+}
